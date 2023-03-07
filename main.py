@@ -1,22 +1,8 @@
 
 import random
-import js2py
 import streamlit as st
 from PyBypass.main import BypasserNotFoundError, UnableToBypassError, UrlConnectionError
 import PyBypass as bypasser
-js = """
-	atOptions = {
-		'key' : 'f274454d04b18b3c2e76a5be61a28a33',
-		'format' : 'iframe',
-		'height' : 90,
-		'width' : 728,
-		'params' : {}
-	};
-	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.profitabledisplaynetwork.com/f274454d04b18b3c2e76a5be61a28a33/invoke.js"></scr' + 'ipt>');
-"""
-ad = js2py.eval_js(js)
-
-print(ad)
 
 st.set_page_config(page_title="URL Bypasser", page_icon='🧊',
                    layout="centered", initial_sidebar_state="auto",    menu_items={
