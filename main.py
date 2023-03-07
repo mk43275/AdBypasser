@@ -7,7 +7,7 @@ import PyBypass as bypasser
 st.set_page_config(page_title="URL Bypasser", page_icon='🧊',
                    layout="centered", initial_sidebar_state="auto",    menu_items={
                        'Get Help': 'https://telegram.me',
-                       'Report a bug': "askfriends1@protonmail.com",
+                       'Report a bug': "Contact us askfriends1@protonmail.com",
                        'About': "This is URL Bypasser website."
                    })
 
