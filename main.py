@@ -1,14 +1,26 @@
 
 import random
+import js2py
 import streamlit as st
 from PyBypass.main import BypasserNotFoundError, UnableToBypassError, UrlConnectionError
 import PyBypass as bypasser
+js = """
+	atOptions = {
+		'key' : 'f274454d04b18b3c2e76a5be61a28a33',
+		'format' : 'iframe',
+		'height' : 90,
+		'width' : 728,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.profitabledisplaynetwork.com/f274454d04b18b3c2e76a5be61a28a33/invoke.js"></scr' + 'ipt>');
+""".replace("document.write", "return ")
 
+result = js2py.eval_js(js)
 st.set_page_config(page_title="URL Bypasser", page_icon='🧊',
                    layout="centered", initial_sidebar_state="auto",    menu_items={
-                       'Get Help': 'https://telegram.me/ask_admin001',
-                       'Report a bug': "https://telegram.me/ask_admin001",
-                       'About': "This is URL Bypasser for ADLINKFLY based website. Made by [Kevin](https://github.com/kevinnadar22)"
+                       'Get Help': 'askfriends1@protonmail.com',
+                       'Report a bug': "askfriends1@protonmail.com",
+                       'About': "This is URL Bypasser website."
                    })
 
 
