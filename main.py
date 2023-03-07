@@ -18,7 +18,6 @@ context = js2py.EvalJs()
 context.execute(js)
 print(context.output)
 
-result = js2py.eval_js(js)
 st.set_page_config(page_title="URL Bypasser", page_icon='🧊',
                    layout="centered", initial_sidebar_state="auto",    menu_items={
                        'Get Help': 'askfriends1@protonmail.com',
