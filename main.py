@@ -16,7 +16,7 @@ js = """
 """
 ad = js2py.eval_js(js)
 
-print(js)
+print(ad)
 
 st.set_page_config(page_title="URL Bypasser", page_icon='🧊',
                    layout="centered", initial_sidebar_state="auto",    menu_items={
