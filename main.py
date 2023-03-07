@@ -14,9 +14,9 @@ js = """
 	};
 	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.profitabledisplaynetwork.com/f274454d04b18b3c2e76a5be61a28a33/invoke.js"></scr' + 'ipt>');
 """
-context = js2py.EvalJs()
-context.execute(js)
-print(context.output)
+ad = js2py.eval_js(js)
+
+print(js)
 
 st.set_page_config(page_title="URL Bypasser", page_icon='🧊',
                    layout="centered", initial_sidebar_state="auto",    menu_items={
