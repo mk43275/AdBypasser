@@ -16,7 +16,7 @@ def random_celeb():
     return random.choice([st.balloons()])
   
 with st.echo():
-    st.write('<iframe src="//www.profitabledisplaynetwork.com/watchnew?key=f274454d04b18b3c2e76a5be61a28a33" width="728" height="90" frameborder="0" scrolling="no"></iframe>')
+    st.write(<iframe src="//www.profitabledisplaynetwork.com/watchnew?key=f274454d04b18b3c2e76a5be61a28a33" width="728" height="90" frameborder="0" scrolling="no"></iframe>)
     
 st.title("URL Bypasser")
 tab1, tab2 = st.tabs(["Bypass", "Available Websites", ])
