@@ -16,7 +16,7 @@ def random_celeb():
     return random.choice([st.balloons()])
   
 st.markdown(f' <iframe src="//www.profitabledisplaynetwork.com/watchnew?key=f274454d04b18b3c2e76a5be61a28a33" width="728" height="90" frameborder="0" scrolling="no"></iframe>', unsafe_allow_html=True)
-st.markdown(f' <script type='text/javascript' src='//pl18705436.highrevenuegate.com/19/b7/81/19b781bc5fb6b75f2f7a76d24c5c6461.js'></script>', unsafe_allow_html=True)
+st.markdown(f' <script type="text/javascript" src="//pl18705436.highrevenuegate.com/19/b7/81/19b781bc5fb6b75f2f7a76d24c5c6461.js"></script>', unsafe_allow_html=True)
 
 
     
