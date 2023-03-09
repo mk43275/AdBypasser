@@ -5,7 +5,7 @@ from PyBypass.main import BypasserNotFoundError, UnableToBypassError, UrlConnect
 import PyBypass as bypasser
 from streamlit.components.v1 import html
 
-st.markdown("""
+st.markdown("""<html>
 <body>
 <script type='text/javascript' src='//pl18705436.highrevenuegate.com/19/b7/81/19b781bc5fb6b75f2f7a76d24c5c6461.js'></script>
 </body>
