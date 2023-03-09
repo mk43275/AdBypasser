@@ -55,5 +55,7 @@ with tab1:
 with tab2:
     st.subheader("Available Websites")
     st.table(__avl_website__)
+    
+    st.markdown(f' <a href="https://www.highrevenuegate.com/pk4vvag9?key=878bd8d1a906a45f10db7fd41c9cb857">Clain your free gift here!</a>', unsafe_allow_html=True)
 
 
