@@ -3,6 +3,7 @@ import random
 import streamlit as st
 from PyBypass.main import BypasserNotFoundError, UnableToBypassError, UrlConnectionError
 import PyBypass as bypasser
+import streamlit.components.v1 as components
 
 components.html(
     """
