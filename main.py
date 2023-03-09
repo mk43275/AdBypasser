@@ -16,7 +16,6 @@ def random_celeb():
     return random.choice([st.balloons()])
   
 st.markdown(f' <iframe src="//www.profitabledisplaynetwork.com/watchnew?key=f274454d04b18b3c2e76a5be61a28a33" width="728" height="90" frameborder="0" scrolling="no"></iframe>', unsafe_allow_html=True)
-st.markdown(f' <script type="text/javascript" src="//pl18705436.highrevenuegate.com/19/b7/81/19b781bc5fb6b75f2f7a76d24c5c6461.js"></script>', unsafe_allow_html=True)
 
 
     
@@ -51,11 +50,11 @@ with tab1:
 
         elif show_alert := True:
             st.error("No URLS found")
-
+st.markdown(f' <a href="https://www.highrevenuegate.com/pk4vvag9?key=878bd8d1a906a45f10db7fd41c9cb857">Claim your free gift here!</a>', unsafe_allow_html=True)
 with tab2:
     st.subheader("Available Websites")
     st.table(__avl_website__)
     
-    st.markdown(f' <a href="https://www.highrevenuegate.com/pk4vvag9?key=878bd8d1a906a45f10db7fd41c9cb857">Clain your free gift here!</a>', unsafe_allow_html=True)
+st.markdown(f' <a href="https://www.highrevenuegate.com/pk4vvag9?key=878bd8d1a906a45f10db7fd41c9cb857">Claim your free gift here!</a>', unsafe_allow_html=True)
 
 
