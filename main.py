@@ -3,13 +3,7 @@ import random
 import streamlit as st
 from PyBypass.main import BypasserNotFoundError, UnableToBypassError, UrlConnectionError
 import PyBypass as bypasser
-from streamlit.components.v1 import html
 
-st.markdown("""<html>
-<body>
-<script type='text/javascript' src='//pl18705436.highrevenuegate.com/19/b7/81/19b781bc5fb6b75f2f7a76d24c5c6461.js'></script>
-</body>
-</html>""",unsafe_allow_html=True)
 st.set_page_config(page_title="URL Bypasser", page_icon='🧊',
                    layout="centered", initial_sidebar_state="auto",    menu_items={
                        'Get Help': 'https://telegram.me/',
